@@ -1,0 +1,355 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+      rel="stylesheet"
+    />
+
+    <title>Plinth Studio — Architecture & Interior Design</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Work+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <aside class="blueprint-ruler">
+      <span class="ruler-sheet">A-00</span>
+      <div class="ruler-ticks"></div>
+      <span class="ruler-label">Plinth Studio &mdash; Scale N.T.S.</span>
+    </aside>
+    <header>
+      <nav class="navbar navbar-expand-lg site-navbar fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="home.html">
+            Plinth Studio <small>Architecture & Interior Design</small></a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#siteNav"
+            aria-controls="#siteNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="siteNav">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-lg-center">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="home.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="services.html">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="portfolio.html">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+              <li class="nav-item ms-lg-2">
+                <a class="btn btn-brass btn-sm" href="contact.html"
+                  >Start a Project</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="container">
+          <div class="row align-items-center g-5">
+            <div class="col-lg-6">
+              <p class="eyebrow">Fig. 01 &mdash; Studio, est. 2011</p>
+              <h1 class="display-4 mb-4">
+                Buildings drawn<br />to be lived in,<br />not just photographed.
+              </h1>
+              <p class="lead text-muted-local mb-4">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+                nihil provident voluptates accusantium qui. Inventore quae hic
+                nostrum eveniet totam, ipsum perspiciatis iusto exercitationem
+                eius, distinctio accusantium corporis voluptatem voluptatibus.
+              </p>
+              <div class="d-flex flex-wrap gap-3">
+                <a href="portfolio.html" class="btn btn-brass"
+                  >View Portfolio</a
+                >
+                <a href="contact.html" class="btn btn-outline-ink"
+                  >Start a Project</a
+                >
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <figure class="hero-figure crop-marks m-0">
+                <img
+                  src="assets/images/hero/plinth-hero.jpg"
+                  class="img-fluid w-100"
+                  style="object-fit: cover; height: 480px"
+                  alt="Sunlit concrete stairwell inside a Plinth Studio residential renovation"
+                />
+              </figure>
+              <p class="hero-caption">
+                <span>Casa Rem&aacute;s, Pakistan</span>
+                <span>2024</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section--tight hairline-top hairline-bottom">
+        <div class="container">
+          <div class="row text-center g-4">
+            <div class="col-6 col-md-3">
+              <div class="h2 font-display mb-0">130+</div>
+              <p class="text-muted-local mb-0 small">Projects completed</p>
+            </div>
+            <div class="col-6 col-md-3">
+              <div class="h2 font-display mb-0">14</div>
+              <p class="text-muted-local mb-0 small">Studio members</p>
+            </div>
+            <div class="col-6 col-md-3">
+              <div class="h2 font-display mb-0">9</div>
+              <p class="text-muted-local mb-0 small">Countries built in</p>
+            </div>
+            <div class="col-6 col-md-3">
+              <div class="h2 font-display mb-0">13yrs</div>
+              <p class="text-muted-local mb-0 small">In practice</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section">
+        <div class="container">
+          <div class="row mb-5">
+            <div class="col-lg-7">
+              <p class="eyebrow">Fig. 02 &mdash; Selected Work</p>
+              <h2 id="featured-heading">Recent projects</h2>
+            </div>
+            <div class="col-lg-5 d-flex align-items-end justify-content-lg-end">
+              <a
+                href="portfolio.html"
+                class="text-decoration-none font-mono small"
+                >View full portfolio &rarr;</a
+              >
+            </div>
+          </div>
+          <div class="row g-4">
+            <!-- Project card 1 -->
+            <div class="col-md-6 col-lg-4">
+              <article class="project-card">
+                <a href="project-detail.html">
+                  <img
+                    src="assets/images/hero/plinth-house.jpg"
+                    alt="Casa Rem&aacute;s living room with exposed concrete beam"
+                  />
+                </a>
+                <div class="project-card-body">
+                  <span class="project-tag">Residential</span>
+                  <h3 class="h5 mt-2 mb-1">
+                    <a
+                      href="project-detail.html"
+                      class="text-decoration-none stretched-link-parent"
+                      >Casa Rem&aacute;s</a
+                    >
+                  </h3>
+                  <p class="text-muted-local small mb-0">
+                    Faisalabad, Pakistan &mdash; 2024
+                  </p>
+                </div>
+              </article>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <article class="project-card">
+                <a href="project-detail.html">
+                  <img
+                    src="assets/images/hero/plinth-office.jpg"
+                    alt="Open-plan office fit-out with timber ceiling battens"
+                  />
+                </a>
+                <div class="project-card-body">
+                  <span class="project-tag">Workplace</span>
+                  <h3 class="h5 mt-2 mb-1">
+                    <a href="project-detail.html" class="text-decoration-none"
+                      >Marlow &amp; Kest HQ</a
+                    >
+                  </h3>
+                  <p class="text-muted-local small mb-0">
+                    Seoul, Korea &mdash; 2023
+                  </p>
+                </div>
+              </article>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <article class="project-card">
+                <a href="project-detail.html">
+                  <img
+                    src="assets/images/hero/plinth-hotel.jpg"
+                    alt="Boutique hotel lobby with brass detailing and stone floor"
+                  />
+                </a>
+                <div class="project-card-body">
+                  <span class="project-tag">Hospitality</span>
+                  <h3 class="h5 mt-2 mb-1">
+                    <a href="project-detail.html" class="text-decoration-none"
+                      >Hotel Feira</a
+                    >
+                  </h3>
+                  <p class="text-muted-local small mb-0">
+                    Lahore, Pakistan &mdash; 2022
+                  </p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section section--dark">
+        <div class="container">
+          <div class="row mb-5">
+            <div class="col-lg-7">
+              <p class="eyebrow">Fig. 03 &mdash; What We Do</p>
+              <h2 id="services-heading">Three disciplines, one studio</h2>
+            </div>
+          </div>
+          <div class="row g-4">
+            <div class="col-md-4">
+              <h3 class="h4">Architecture</h3>
+              <p class="text-muted-local text-align-justify">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor
+                unde nesciunt sed tempore. Similique, error?
+              </p>
+              <a
+                href="services.html"
+                class="font-mono small text-decoration-none"
+                >Learn more &rarr;</a
+              >
+            </div>
+            <div class="col-md-4">
+              <h3 class="h4">Interior Design</h3>
+              <p class="text-muted-local">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
+                ipsa corrupti sint quos!
+              </p>
+              <a
+                href="services.html"
+                class="font-mono small text-decoration-none"
+                >Learn more &rarr;</a
+              >
+            </div>
+            <div class="col-md-4">
+              <h3 class="h4">Renovation &amp; Consultation</h3>
+              <p class="text-muted-local">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+                odit numquam impedit et.
+              </p>
+              <a
+                href="services.html"
+                class="font-mono small text-decoration-none"
+                >Learn more &rarr;</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section section--surface">
+        <div class="container">
+          <div class="row justify-content-center text-center">
+            <div class="col-lg-8">
+              <p class="font-display fs-3 mb-4">
+                &ldquo;They treated our budget like a design constraint worth
+                being clever about, not an obstacle. The house works harder than
+                any home we've lived in.&rdquo;
+              </p>
+              <p class="font-mono small text-muted-local mb-0">
+                Owner, Casa Rem&aacute;s &mdash; Pakistan
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section--tight">
+        <div class="container">
+          <div class="row align-items-center g-4 hairline-top pt-5">
+            <div class="col-lg-8">
+              <h2 class="mb-0">
+                Have a site, a budget and a rough idea?<br />That's plenty to
+                start with.
+              </h2>
+            </div>
+            <div class="col-lg-4 text-lg-end">
+              <a href="contact.html" class="btn btn-brass btn-lg"
+                >Start a Project</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-lg-4">
+            <p class="font-display fs-4 text-light mb-2">Plinth Studio</p>
+            <p class="small mb-0">
+              Architecture &amp; interior design practice based in Faisalabad,
+              working on projects worldwide.
+            </p>
+          </div>
+          <div class="col-6 col-lg-1">
+            <p class="footer-heading">Studio</p>
+            <ul class="list-unstyled small">
+              <li class="mb-2"><a href="about.html">About</a></li>
+              <li class="mb-2"><a href="services.html">Services</a></li>
+              <li class="mb-2"><a href="portfolio.html">Portfolio</a></li>
+            </ul>
+          </div>
+          <div class="col-6 col-lg-3">
+            <p class="footer-heading">Contact</p>
+            <ul class="list-unstyled small">
+              <li class="mb-2"><a href="contact.html">Enquiries</a></li>
+              <li class="mb-2">
+                <a href="mailto:hello@plinthstudio.example"
+                  >hello@plinthstudio.example</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-4">
+            <p class="footer-heading">Studio Address</p>
+            <p class="small mb-0">
+              Canal Road<br />1200-691 Faisalabad, Pakistan
+            </p>
+          </div>
+        </div>
+        <div
+          class="footer-bottom d-flex flex-column flex-md-row justify-content-between"
+        >
+          <p class="mb-0">&copy; 2026 Plinth Studio. All rights reserved.</p>
+          <p class="mb-0">Sheet A-00 &mdash; Home</p>
+        </div>
+      </div>
+    </footer>
+
+    <button class="back-to-top" type="button">&uarr;</button>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

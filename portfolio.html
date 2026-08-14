@@ -1,0 +1,405 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio — Plinth Studio</title>
+    <meta
+      name="description"
+      content="Browse Plinth Studio's residential, workplace and hospitality projects."
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Work+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/css/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <aside class="blueprint-ruler">
+      <span class="ruler-sheet">A-03</span>
+      <div class="ruler-ticks"></div>
+      <span class="ruler-label">Plinth Studio &mdash; Scale N.T.S.</span>
+    </aside>
+
+    <header>
+      <nav class="navbar navbar-expand-lg site-navbar fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">
+            Plinth Studio
+            <small>Architecture &amp; Interior Design</small>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#siteNav"
+            aria-controls="siteNav"
+            aria-expanded="false"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="siteNav">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-lg-center">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="services.html">Services</a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="portfolio.html"
+                  >Portfolio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+              <li class="nav-item ms-lg-2">
+                <a class="btn btn-brass btn-sm" href="contact.html"
+                  >Start a Project</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero pb-0">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8">
+              <p class="eyebrow">Fig. 01 &mdash; Portfolio</p>
+              <h1 class="display-5 mb-4">130 projects, filed by type</h1>
+              <p class="lead text-muted-local">
+                A selection of completed and in-progress work across
+                residential, workplace and hospitality design.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section--tight">
+        <div class="container">
+          <div class="filter-nav d-flex flex-wrap gap-2" role="group">
+            <button
+              type="button"
+              class="btn btn-brass btn-sm active"
+              data-filter="all"
+            >
+              All Projects
+            </button>
+            <button
+              type="button"
+              class="btn btn-outline-ink btn-sm"
+              data-filter="residential"
+            >
+              Residential
+            </button>
+            <button
+              type="button"
+              class="btn btn-outline-ink btn-sm"
+              data-filter="workplace"
+            >
+              Workplace
+            </button>
+            <button
+              type="button"
+              class="btn btn-outline-ink btn-sm"
+              data-filter="hospitality"
+            >
+              Hospitality
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section class="section pt-0">
+        <div class="container">
+          <div class="row g-4">
+            <div class="col-md-6 col-lg-4" data-category="residential">
+              <article class="project-card">
+                <a href="project-detail.html">
+                  <img
+                    src="assets/images/hero/plinth-house.jpg"
+                    alt=" living room with exposed concrete beam"
+                  />
+                </a>
+                <div class="project-card-body">
+                  <span class="project-tag">Residential</span>
+                  <h2 class="h5 mt-2 mb-1">
+                    <a href="project-detail.html" class="text-decoration-none"
+                      >Casa Rem&aacute;s</a
+                    >
+                  </h2>
+                  <p class="text-muted-local small mb-0">
+                    Faisalabad, Pakistan &mdash; 2024
+                  </p>
+                </div>
+              </article>
+            </div>
+
+            <div class="col-md-6 col-lg-4" data-category="workplace">
+              <article class="project-card">
+                <a href="project-detail.html">
+                  <img
+                    src="assets/images/hero/plinth-office.jpg"
+                    alt="Open-plan office fit-out with timber ceiling battens"
+                  />
+                </a>
+                <div class="project-card-body">
+                  <span class="project-tag">Workplace</span>
+                  <h2 class="h5 mt-2 mb-1">
+                    <a href="project-detail.html" class="text-decoration-none"
+                      >Marlow &amp; Kest HQ</a
+                    >
+                  </h2>
+                  <p class="text-muted-local small mb-0">
+                    Seoul, Korea &mdash; 2023
+                  </p>
+                </div>
+              </article>
+            </div>
+
+            <div class="col-md-6 col-lg-4" data-category="hospitality">
+              <article class="project-card">
+                <a href="project-detail.html">
+                  <img
+                    src="assets/images/hero/plinth-hotel.jpg"
+                    alt="Boutique hotel lobby with brass detailing and stone floor"
+                  />
+                </a>
+                <div class="project-card-body">
+                  <span class="project-tag">Hospitality</span>
+                  <h2 class="h5 mt-2 mb-1">
+                    <a href="project-detail.html" class="text-decoration-none"
+                      >Hotel Feira</a
+                    >
+                  </h2>
+                  <p class="text-muted-local small mb-0">
+                    Lahore, Pakistan &mdash; 2022
+                  </p>
+                </div>
+              </article>
+            </div>
+
+            <div class="col-md-6 col-lg-4" data-category="residential">
+              <article class="project-card">
+                <a href="project-detail.html">
+                  <img
+                    src="assets/images/projects/plinth-house.jpg"
+                    alt="Minimalist courtyard house with timber screen"
+                  />
+                </a>
+                <div class="project-card-body">
+                  <span class="project-tag">Residential</span>
+                  <h2 class="h5 mt-2 mb-1">
+                    <a href="project-detail.html" class="text-decoration-none"
+                      >Courtyard House</a
+                    >
+                  </h2>
+                  <p class="text-muted-local small mb-0">
+                    Faisalabad, Pakistan &mdash; 2023
+                  </p>
+                </div>
+              </article>
+            </div>
+
+            <div class="col-md-6 col-lg-4" data-category="workplace">
+              <article class="project-card">
+                <a href="project-detail.html">
+                  <img
+                    src="assets/images/projects/plinth-office.jpg"
+                    alt="Co-working lounge with reclaimed brick wall"
+                  />
+                </a>
+                <div class="project-card-body">
+                  <span class="project-tag">Workplace</span>
+                  <h2 class="h5 mt-2 mb-1">
+                    <a href="project-detail.html" class="text-decoration-none"
+                      >Studio Norte Co-Work</a
+                    >
+                  </h2>
+                  <p class="text-muted-local small mb-0">
+                    Faisalabad, Pakistan &mdash; 2021
+                  </p>
+                </div>
+              </article>
+            </div>
+
+            <div class="col-md-6 col-lg-4" data-category="hospitality">
+              <article class="project-card">
+                <a href="project-detail.html">
+                  <img
+                    src="assets/images/projects/plinth-house-02.jpg"
+                    alt="Restaurant dining room with vaulted ceiling and pendant lighting"
+                  />
+                </a>
+                <div class="project-card-body">
+                  <span class="project-tag">Hospitality</span>
+                  <h2 class="h5 mt-2 mb-1">
+                    <a href="project-detail.html" class="text-decoration-none"
+                      >Taberna Rua Nova</a
+                    >
+                  </h2>
+                  <p class="text-muted-local small mb-0">
+                    Lahore, Pakistan &mdash; 2020
+                  </p>
+                </div>
+              </article>
+            </div>
+
+            <div class="col-md-6 col-lg-4" data-category="residential">
+              <article class="project-card">
+                <a href="project-detail.html">
+                  <img
+                    src="assets/images/projects/plinth-house-03.jpg"
+                    alt="Coastal home extension with glazed corner"
+                  />
+                </a>
+                <div class="project-card-body">
+                  <span class="project-tag">Residential</span>
+                  <h2 class="h5 mt-2 mb-1">
+                    <a href="project-detail.html" class="text-decoration-none"
+                      >Casa da Praia</a
+                    >
+                  </h2>
+                  <p class="text-muted-local small mb-0">
+                    Multan, Pakistan &mdash; 2019
+                  </p>
+                </div>
+              </article>
+            </div>
+
+            <div class="col-md-6 col-lg-4" data-category="workplace">
+              <article class="project-card">
+                <a href="project-detail.html">
+                  <img
+                    src="assets/images/projects/plinth-office.jpg"
+                    alt="Executive meeting room with brass and walnut joinery"
+                  />
+                </a>
+                <div class="project-card-body">
+                  <span class="project-tag">Workplace</span>
+                  <h2 class="h5 mt-2 mb-1">
+                    <a href="project-detail.html" class="text-decoration-none"
+                      >Ferreira &amp; Vaz Law Offices</a
+                    >
+                  </h2>
+                  <p class="text-muted-local small mb-0">
+                    Faisalabad, Pakistan &mdash; 2018
+                  </p>
+                </div>
+              </article>
+            </div>
+
+            <div class="col-md-6 col-lg-4" data-category="hospitality">
+              <article class="project-card">
+                <a href="project-detail.html">
+                  <img
+                    src="assets/images/projects/plinth-hotel.jpg"
+                    alt="Hotel room with plaster walls and linen textiles"
+                  />
+                </a>
+                <div class="project-card-body">
+                  <span class="project-tag">Hospitality</span>
+                  <h2 class="h5 mt-2 mb-1">
+                    <a href="project-detail.html" class="text-decoration-none"
+                      >Pousada do Vale</a
+                    >
+                  </h2>
+                  <p class="text-muted-local small mb-0">
+                    Karachi, Pakistan &mdash; 2017
+                  </p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section--tight section--surface">
+        <div class="container">
+          <div class="row align-items-center g-4 pt-5">
+            <div class="col-lg-8">
+              <h2 class="mb-0">
+                Don't see quite the right example? Ask us &mdash; we've likely
+                done something close.
+              </h2>
+            </div>
+            <div class="col-lg-4 text-lg-end">
+              <a href="contact.html" class="btn btn-brass btn-lg"
+                >Start a Project</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-lg-4">
+            <p class="font-display fs-4 text-light mb-2">Plinth Studio</p>
+            <p class="small mb-0">
+              Architecture &amp; interior design practice based in Faisalabad,
+              working on projects worldwide.
+            </p>
+          </div>
+          <div class="col-6 col-lg-1">
+            <p class="footer-heading">Studio</p>
+            <ul class="list-unstyled small">
+              <li class="mb-2"><a href="about.html">About</a></li>
+              <li class="mb-2"><a href="services.html">Services</a></li>
+              <li class="mb-2"><a href="portfolio.html">Portfolio</a></li>
+            </ul>
+          </div>
+          <div class="col-6 col-lg-3">
+            <p class="footer-heading">Contact</p>
+            <ul class="list-unstyled small">
+              <li class="mb-2"><a href="contact.html">Enquiries</a></li>
+              <li class="mb-2">
+                <a href="mailto:hello@plinthstudio.example"
+                  >hello@plinthstudio.example</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-4">
+            <p class="footer-heading">Studio Address</p>
+            <p class="small mb-0">
+              Canal Road<br />1200-691 Faisalabad, Pakistan
+            </p>
+          </div>
+        </div>
+        <div
+          class="footer-bottom d-flex flex-column flex-md-row justify-content-between"
+        >
+          <p class="mb-0">&copy; 2026 Plinth Studio. All rights reserved.</p>
+          <p class="mb-0">Sheet A-03 &mdash; Portfolio</p>
+        </div>
+      </div>
+    </footer>
+
+    <button class="back-to-top" type="button">&uarr;</button>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
